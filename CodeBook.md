@@ -1,4 +1,4 @@
-This is a code book for the sets 'mergedset.csv' and 'averages.csv' described below.
+This is a code book for the sets 'mergedset.txt' and 'averages.txt' described below.
 
 First, we quote the original source:
 
@@ -29,7 +29,7 @@ For each record it is provided:
 
 end of quote.
 
-The 'mergedset.csv' is a set that proceeds from the following. 
+The 'mergedset.txt' is a set that proceeds from the following. 
 
 Merged the training and the test sets to create one data set.
 Extracted only the measurements on the mean and standard deviation for each measurement. 
@@ -37,7 +37,7 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 
 
-variables for the set 'mergedset.csv'
+variables for the set 'mergedset.txt'
 This set contains the mean and standard deviation for each measurment of the original signal variables.
 
 subject: The number that identifies the volunteer subject that performed the experiment 
@@ -69,10 +69,10 @@ group: The group to which te subject belongs 'train' or 'test'.
 
 
 
-The set 'averages.csv' is a second, independent tidy data set with the average of each variable for each activity and each subject from mergedset.csv.
+The set 'averages.txt' is a second, independent tidy data set with the average of each variable for each activity and each subject from mergedset.txt.
 
 
-variables for the set 'averages.csv'
+variables for the set 'averages.txt'
 
 This set contains the average of each variable for each activity and each subject.
 

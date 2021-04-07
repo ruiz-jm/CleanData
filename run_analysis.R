@@ -136,7 +136,7 @@ names(df)<-c('subject','activity','act_code','bod_acc_x_mean','bod_acc_x_sd','bo
 #head(df,10)
 
 
-write.csv(df,"mergedset.csv")
+write.table(df,"mergedset.txt",row.name=FALSE)
 
 
  #####################################
@@ -196,4 +196,4 @@ grouplab<-c('train','test')
 df4$group<-as.factor(df4$group)
 levels(df4$group)<-grouplab
  
-write.csv(df4,"averages.csv")
+write.table(df4,"averages.txt",row.name=FALSE)

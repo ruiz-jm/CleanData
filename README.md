@@ -1,6 +1,6 @@
-This is a readme file for the sets 'mergedset.csv', 'averages.csv', 'CodeBook.md' and  'run_analysis.R' code.
+This is a readme file for the sets 'mergedset.txt', 'averages.txt', 'CodeBook.md' and  'run_analysis.R' code.
 
-'mergedset.csv'
+'mergedset.txt'
 
 Is a set that proceeds from the following. 
 
@@ -10,14 +10,14 @@ Uses descriptive activity names to name the activities in the data set
 Appropriately labels the data set with descriptive variable names.
 
 
-'averages.csv'
+'averages.txt'
 
- is a second, independent tidy data set with the average of each variable for each activity and each subject from mergedset.csv.
+ is a second, independent tidy data set with the average of each variable for each activity and each subject from mergedset.txt.
 
 
 'run_analysis.R' code.
 Is the code that created the files 
-'mergedset.csv' and 'averages.csv'
+'mergedset.txt' and 'averages.txt'
 
 
 
